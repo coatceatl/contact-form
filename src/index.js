@@ -14,13 +14,26 @@ $(document).ready(function() {
     rules: {
       name: {
         required: true,
-        minlength: 2
+        minlength: 3
       },
       phone: {
         required: true,
       },
       email: {
         required: true,
+        email: true
+      }
+    },
+    messages: {
+      name: {
+        required: 'Please specify your name',
+        minlength: "The length of the name can't be less than 3 letters"
+      },
+      phone: {
+        required: 'Please specify your phone number'
+      },
+      email: {
+        required: 'Please specify your email'
       }
     }
   });
