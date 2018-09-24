@@ -1,8 +1,9 @@
-.container {
-  background-color: lightgreen; }
-
-.title {
-  color: red; }
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
