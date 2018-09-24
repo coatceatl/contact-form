@@ -5,6 +5,15 @@
   width: 100vw;
   height: 100vh; }
 
+input.error {
+  border: 2px solid red;
+  background-color: #ffffd5;
+  margin: 0px;
+  color: red; }
+
+.error {
+  color: red; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

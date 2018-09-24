@@ -33,7 +33,8 @@ $(document).ready(function() {
         required: 'Please specify your phone number'
       },
       email: {
-        required: 'Please specify your email'
+        required: 'Please specify your email',
+        email: 'Please enter a valid e-mail, example: name@example.com'
       }
     }
   });
