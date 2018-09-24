@@ -10,6 +10,10 @@ $(document).ready(function() {
   });
 
   /* validation */
+  $.validator.methods.email = function( value, element ) {
+    return this.optional( element ) || /[a-z]+@[a-z]+\.[a-z]+/.test( value );
+  }
+
   $('#formModal').validate({
     rules: {
       name: {
